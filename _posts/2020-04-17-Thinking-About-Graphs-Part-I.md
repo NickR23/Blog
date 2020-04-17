@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Thinking about graphs part I"
 date:   2020-04-17 08:30:35 -0400
 categories: [computer science]

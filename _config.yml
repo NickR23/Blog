@@ -28,9 +28,22 @@ url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://
 github_username:  NickR23
 
 # Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.19.1"
 plugins:
-  - jekyll-feed
+  - jekyll-include-cache
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
